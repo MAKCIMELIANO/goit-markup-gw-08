@@ -29,7 +29,7 @@
                    <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
                 </ul>
             </nav>
-            <button class="header-mobile__btn">
+            <button type="button" class="header-mobile__btn" data-menu-button>
                 <svg class="header-mobile__icon">
                     <use href="./imges/sprite.svg#menu-icon"></use>
                 </svg>
@@ -51,39 +51,44 @@
                 </li>
            </ul>
         </div>
-        <div class="mobile-menu">
+        <div class="mobile-menu" data-menu>
             <div class="container mobile-menu__container">
+                <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                    <svg class="mobile-icon__btn">
+                        <use href="./imges/sprite.svg#icon-button"></use>
+                    </svg>
+                </button>
                 <ul class="mobile-menu__nav">
                     <li class="mobile-menu__nav-item">
-                        <a href="" class="mobile-menu__nav-link"></a>
+                        <a href="index.html" class="mobile-menu__nav-link">Студия</a>
                     </li>
                     <li class="mobile-menu__nav-item">
-                        <a href="" class="mobile-menu__nav-link"></a>
+                        <a href="portfolio.html" class="mobile-menu__nav-link">Портфолио</a>
                     </li>
                     <li class="mobile-menu__nav-item">
-                        <a href="" class="mobile-menu__nav-link"></a>
+                        <a href="" class="mobile-menu__nav-link">Контакты</a>
                     </li>
                 </ul>
                 <ul class="mobile-menu__contact">
                     <li class="mobile-menu__contact-item">
-                        <a href="" class="mobile-menu__contact-link"></a>
+                        <a href="+380961111111" class="mobile-menu__contact-link">+38 096 111 11 11</a>
                     </li>
                     <li class="mobile-menu__contact-item">
-                        <a href="" class="mobile-menu__contact-link"></a>
+                        <a href="info@devstudio.com" class="mobile-menu__contact-link mobile-menu__mail">info@devstudio.com</a>
                     </li>
                 </ul>
                 <ul class="mobile-menu__social">
                     <li class="mobile-menu__social-item">
-                        <a href="" class="mobile-menu__social-link"></a>
+                        <a href="" class="mobile-menu__social-link">Instagram</a>
                     </li>
                     <li class="mobile-menu__social-item">
-                        <a href="" class="mobile-menu__social-link"></a>
+                        <a href="" class="mobile-menu__social-link">Twitter</a>
                     </li>
                     <li class="mobile-menu__social-item">
-                        <a href="" class="mobile-menu__social-link"></a>
+                        <a href="" class="mobile-menu__social-link">Facebook</a>
                     </li>
                     <li class="mobile-menu__social-item">
-                        <a href="" class="mobile-menu__social-link"></a>
+                        <a href="" class="mobile-menu__social-link">LinkedIn</a>
                     </li>
                 </ul>
             </div>
@@ -163,7 +168,7 @@
                                     media="(min-width: 450px)" type="image/webp">
                                 <source srcset="./imges/mobile-imges/igordemyanenko-mobile.jpg 1x, ./imges/mobile-imges/igordemyanenko-mobile@2x.jpg 2x"
                                     media="(min-width: 450px)">
-                            <img src="./imges/Igor-Demyanenko.jpg" alt="Игорь Демьяненко" width="auto" height="auto">
+                            <img src="./imges/Igor-Demyanenko.jpg" alt="Игорь Демьяненко">
                             </picture>
                         </div>
                         <div class="ourteam-card__content">
@@ -212,7 +217,7 @@
                                     <source
                                         srcset="./imges/mobile-imges/olgarepina-mobile.jpg 1x, ./imges/mobile-imges/olgarepina-mobile@2x.jpg 2x"
                                         media="(min-width: 450px)">
-                            <img src="imges/Olga-Repina.jpg" alt="Ольга Репина" width="auto" height="auto">
+                            <img src="imges/Olga-Repina.jpg" alt="Ольга Репина">
                             </picture>
                         </div>
                         <div class="ourteam-card__content">
@@ -259,7 +264,7 @@
                                     media="(min-width: 450px)" type="image/webp">
                                 <source srcset="./imges/mobile-imges/nikolaytarasov-mobile.jpg 1x, ./imges/mobile-imges/nikolaytarasov-mobile@2x.jpg 2x"
                                     media="(min-width: 450px)">
-                            <img src="imges/Nikolai-Tarasov.jpg" alt="Николай Тарасов" width="auto" height="auto">
+                            <img src="imges/Nikolai-Tarasov.jpg" alt="Николай Тарасов">
                             </picture>
                         </div>
                         <div class="ourteam-card__content">
@@ -308,7 +313,7 @@
                                 <source
                                     srcset="./imges/mobile-imges/mihailermakov-mobile.jpg 1x, ./imges/mobile-imges/mihailermakov-mobile@2x.jpg 2x"
                                     media="(min-width: 450px)">
-                            <img src="imges/Mihail-Ermakov.jpg" alt="Михаил Ермаков" width="auto" height="auto">
+                            <img src="imges/Mihail-Ermakov.jpg" alt="Михаил Ермаков">
                             </picture>
                         </div>
                         <div class="ourteam-card__content">
@@ -515,6 +520,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
-
+    <script src="./js/menu.js"></script>
 </body>
 </html>
