@@ -141,6 +141,13 @@ ol {
   transition: color 250ms linear;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-nav__links {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}
+
 .site-nav__links::after {
   position: absolute;
   bottom: 0;
@@ -162,6 +169,13 @@ ol {
 @media screen and (max-width: 767px) {
   .site-contact {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-contact {
+    flex-direction: column;
+    margin-left: 84px;
   }
 }
 
@@ -192,6 +206,12 @@ ol {
 
 .site-contact__item + .site-contact__item {
   margin-left: 50px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-contact__item + .site-contact__item {
+    margin-left: 0;
+  }
 }
 
 .header-mobile__btn {
@@ -714,12 +734,19 @@ ol {
 }
 
 .filter-list {
+  justify-content: start;
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 50px;
   padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .filter-list {
+    justify-content: center;
+  }
 }
 
 .filter-list__btn {
@@ -746,13 +773,10 @@ ol {
   border-radius: 4px;
 }
 
-.filter-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 0;
-  margin-bottom: 50px;
-  padding-left: 0;
+@media screen and (max-width: 767px) {
+  .filter-list__item:nth-child(-n + 3) {
+    margin-bottom: 15px;
+  }
 }
 
 .filter-list__item:not(:last-child) {
