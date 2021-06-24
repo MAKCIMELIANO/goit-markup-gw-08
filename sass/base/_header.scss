@@ -54,11 +54,6 @@
   letter-spacing: 0.02em;
   transition: color 250ms linear;
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    font-size: 12px;
-    line-height: 1.16;
-  }
-
   &::after {
     position: absolute;
     bottom: 0;
@@ -83,7 +78,7 @@
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     flex-direction: column;
-    margin-left: 84px;
+    margin-left: 50px;
   }
 }
 
@@ -95,6 +90,11 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms linear;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 
   &:hover,
   &:focus {

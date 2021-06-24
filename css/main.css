@@ -141,13 +141,6 @@ ol {
   transition: color 250ms linear;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .site-nav__links {
-    font-size: 12px;
-    line-height: 1.16;
-  }
-}
-
 .site-nav__links::after {
   position: absolute;
   bottom: 0;
@@ -175,7 +168,7 @@ ol {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .site-contact {
     flex-direction: column;
-    margin-left: 84px;
+    margin-left: 50px;
   }
 }
 
@@ -187,6 +180,13 @@ ol {
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color 250ms linear;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-contact__link {
+    font-size: 12px;
+    line-height: 1.16;
+  }
 }
 
 .site-contact__link:hover, .site-contact__link:focus {
@@ -284,6 +284,13 @@ ol {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .hero-title {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
+
 .hero-button {
   font-family: inherit;
   color: var(--base-color);
@@ -330,6 +337,13 @@ ol {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .features-list {
+    flex-basis: calc((100% - 30px * 2) / 2);
+    flex-wrap: wrap;
+  }
+}
+
 .features-list__item {
   flex-basis: calc(100% / 4);
   margin-right: 30px;
@@ -338,6 +352,13 @@ ol {
 @media screen and (max-width: 767px) {
   .features-list__item {
     margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .features-list__item {
+    flex-basis: calc((100% - 30px * 2) / 2);
+    margin-bottom: 30px;
   }
 }
 
@@ -402,7 +423,7 @@ ol {
   padding-bottom: 94px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .doing-section {
     display: none;
   }
@@ -453,6 +474,13 @@ ol {
   margin-right: 30px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .ourteam-list__item {
+    flex-basis: calc((100% - 30px * 2) / 2);
+    margin-bottom: 30px;
+  }
+}
+
 .ourteam-section {
   background-color: #f5f4fa;
   padding-top: 94px;
@@ -479,6 +507,12 @@ ol {
 @media screen and (max-width: 767px) {
   .ourteam-list {
     display: block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .ourteam-list {
+    flex-wrap: wrap;
   }
 }
 
@@ -530,6 +564,13 @@ ol {
 }
 
 @media screen and (max-width: 767px) {
+  .ourteam-social__list {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .ourteam-social__list {
     margin-left: auto;
     margin-right: auto;
@@ -598,6 +639,18 @@ ol {
 @media screen and (max-width: 767px) {
   .clients-list__item {
     flex-basis: calc((100% - 30px * 2) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients-list__item {
+    flex-basis: calc(100% / 6 - 30px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients-list__item {
+    flex-basis: calc((100% - 30px * 3) / 3);
   }
 }
 
@@ -678,6 +731,13 @@ ol {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-container {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
 .footer-social {
   margin-left: 70px;
   width: 206px;
@@ -689,6 +749,12 @@ ol {
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-social {
+    margin-left: auto;
   }
 }
 
@@ -850,6 +916,14 @@ ol {
   margin-bottom: 30px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .projects-list__item {
+    flex-basis: calc((100% - 30px * 2) / 2);
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+}
+
 .projects-list__title {
   margin-top: 0;
   margin-bottom: 4px;
@@ -879,6 +953,12 @@ ol {
   box-sizing: border-box;
   border: 2px solid #ececec;
   border-top: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .portfolio-content {
+    height: 146px;
+  }
 }
 
 .backdrop {
@@ -1083,6 +1163,14 @@ ol {
   margin-left: auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-modal {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+}
+
 .footer-modal-form-input {
   width: 358px;
   height: 50px;
@@ -1097,6 +1185,12 @@ ol {
 @media screen and (max-width: 767px) {
   .footer-modal-form-input {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-modal-form {
+    display: block;
   }
 }
 
