@@ -102,6 +102,13 @@ ol {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .site-nav {
+    flex-direction: row;
+    margin-left: 88px;
+  }
+}
+
 .site-nav__item {
   position: relative;
   margin-right: 50px;
@@ -1194,6 +1201,12 @@ ol {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-modal-form {
+    display: block;
+  }
+}
+
 .footer-modal-form-head {
   margin-bottom: 20px;
   font-family: var(--main-font);
@@ -1236,6 +1249,15 @@ ol {
 
 @media screen and (max-width: 767px) {
   .footer-modal-form-btr {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-modal-form-btr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
   }
 }

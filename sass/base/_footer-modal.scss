@@ -27,6 +27,10 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: block;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+  }
 }
 
 .footer-modal-form-head {
@@ -70,6 +74,13 @@
   }
 
   @media screen and (max-width: 767px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
   }
 }
